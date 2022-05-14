@@ -32,17 +32,12 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          routeBasePath: '/',
           editUrl:
             'https://github.com/codedbychavez/codedbcyhavez.com',
         },
@@ -63,18 +58,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'About',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          
         ],
         style: 'dark'
       },
@@ -82,11 +66,11 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Support Me',
             items: [
               {
-                label: 'About',
-                to: '/docs/intro',
+                label: 'Patreon',
+                to: '#',
               },
             ],
           },
@@ -117,10 +101,6 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/codedbychavez',
-              },
-              {
-                label: 'Show your support <3',
-                href: '#',
               },
             ],
           },
