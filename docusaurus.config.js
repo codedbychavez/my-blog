@@ -70,7 +70,7 @@ const config = {
             items: [
               {
                 label: 'Patreon',
-                to: '#',
+                to: '/',
               },
             ],
           },
@@ -96,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/',
               },
               {
                 label: 'GitHub',
