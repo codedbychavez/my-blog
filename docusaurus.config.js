@@ -79,15 +79,15 @@ const config = {
             items: [
               {
                 label: 'Facebook',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://www.facebook.com/codedbychavez/',
               },
               {
                 label: 'Twitter',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://twitter.com/codedbychavez/',
               },
               {
                 label: 'Instagram',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://www.instagram.com/codedbychavez/',
               },
             ],
           },
@@ -105,7 +105,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} codedbychavez. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} codedbychavez. Built with Docusaurus,  - Because its free!.`,
       },
       prism: {
         theme: lightCodeTheme,
