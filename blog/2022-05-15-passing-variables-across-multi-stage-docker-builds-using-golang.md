@@ -10,7 +10,7 @@ In this article, we’ll walk through a simple method for passing variables from
 
 <!-- truncate -->
 
-![Measuring the impact of a test variation in React with Amplitude and ConfigCat](/img/posts/passing_vars_docker_builds.png)
+![Cover image](/img/posts/passing_vars_docker_builds.png)
 
 ## Pre-reqs
 
