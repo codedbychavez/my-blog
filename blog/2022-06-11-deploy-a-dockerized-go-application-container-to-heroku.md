@@ -12,7 +12,6 @@ Learn how to deploy a Dockerized container of your go application to Heroku for 
 
 <!-- truncate -->
 
-
 ## Prerequisites
 
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)

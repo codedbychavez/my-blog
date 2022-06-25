@@ -12,7 +12,6 @@ A simple method for passing variables from one build stage to the next in a Dock
 
 <!-- truncate -->
 
-
 ## Prerequisites
 
 - Have Go installed
@@ -31,7 +30,6 @@ You will learn how you can share env variables defined in a `.env` file from the
 PORT=4000
 ENVIRONMENT="development
 ```
-
 
 2. In the root of your app (Where `main.g`o is) create a `docker-compose.yml` file. Give it the following content:
 
