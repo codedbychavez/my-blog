@@ -10,7 +10,7 @@ In this post, you’ll learn how to deploy a dockerized container of your go app
 
 <!-- truncate -->
 
-![Measuring the impact of a test variation in React with Amplitude and ConfigCat](/img/posts/passing_vars_docker_builds.png)
+![Cover Photo](/img/posts/passing_vars_docker_builds.png)
 
 ## Pre-reqs
 
