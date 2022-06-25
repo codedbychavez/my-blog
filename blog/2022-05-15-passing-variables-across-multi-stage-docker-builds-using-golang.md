@@ -6,21 +6,22 @@ authors: [Chavez]
 tags: [docker, golang, docker compose]
 ---
 
-In this article, we’ll walk through a simple method for passing variables from one build stage to the next in a Docker file using a `.env` file.
-
-<!-- truncate -->
+A simple method for passing variables from one build stage to the next in a Docker file using a `.env` file.
 
 ![Cover image](/img/posts/passing_vars_docker_builds.png)
 
-## Pre-reqs
+<!-- truncate -->
+
+
+## Prerequisites
 
 - Have Go installed
 - Have docker installed
 - A simple go app to follow along – You can instead, clone the repo for this post from: https://github.com/codedbychavez/go-demo-api
 
-## Whats our aim?
+## Whats the aim?
 
-By the end of this tutorial, you will learn how you can share env variables defined in a `.env` file from the build stage to your production (binary) image.
+You will learn how you can share env variables defined in a `.env` file from the build stage to your production (binary) image.
 
 ## Here are the steps
 

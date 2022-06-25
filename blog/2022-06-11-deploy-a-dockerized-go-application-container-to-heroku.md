@@ -6,13 +6,14 @@ authors: [Chavez]
 tags: [docker, golang, docker compose]
 ---
 
-In this post, you’ll learn how to deploy a dockerized container of your go application to Heroku for free.
-
-<!-- truncate -->
+Learn how to deploy a Dockerized container of your go application to Heroku for free.
 
 ![Cover Photo](/img/posts/passing_vars_docker_builds.png)
 
-## Pre-reqs
+<!-- truncate -->
+
+
+## Prerequisites
 
 - [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
 - A Golang Application to follow along - You can download our demo GO app API template to follow along from: https://github.com/codedbychavez/go-demo-api
