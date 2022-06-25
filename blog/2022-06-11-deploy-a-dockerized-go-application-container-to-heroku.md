@@ -74,7 +74,7 @@ services:
 
 In our docker-compose file above, we defined a single service called app, defined our build, volumes, ports, and an env variable for PORT.
 
-> 💡It is important to know when it comes to Heroku… Heroku assigns a random dynamic port to our go app. To ensure that go uses that port when running our application, we’ll need to reference the default Heroku port environment variable in our dockerfile, you’ll see this later.
+> 💡Heroku assigns a random dynamic port to our go app. To ensure that go uses that port when running our application, we’ll need to reference the default Heroku port environment variable in our dockerfile, you’ll see this later.
 
 Since we’ve defined an `env_file` attribute in our docker-compose file above, we can go ahead and create an **.env** file.
 
