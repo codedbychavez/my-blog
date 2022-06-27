@@ -8,7 +8,7 @@ tags: [docker, golang, docker compose]
 
 Learn how to deploy a Dockerized container of your go application to Heroku for free.
 
-![Cover Photo](/img/posts/passing_vars_docker_builds.png)
+![Cover Photo](/img/posts/passing_vars_multi_stage_docker_builds/cover.png)
 
 <!-- truncate -->
 

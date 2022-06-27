@@ -6,7 +6,7 @@ authors: [Chavez]
 tags: [docker, react, docker compose]
 ---
 
-Learn how to to get live reload working with Docker and React in just a few simple steps.
+Learn how to get live reload working with Docker and React in just a few simple steps.
 
 ![Cover Photo](/img/posts/live_reload_docker_and_react/cover.webp)
 

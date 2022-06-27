@@ -8,7 +8,7 @@ tags: [docker, golang, docker compose]
 
 A simple method for passing variables from one build stage to the next in a Docker file using a `.env` file.
 
-![Cover image](/img/posts/passing_vars_docker_builds.png)
+![Cover image](/img/posts/passing_vars_multi_stage_docker_builds/cover.png)
 
 <!-- truncate -->
 
