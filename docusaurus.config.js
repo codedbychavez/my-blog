@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'codedbychavez',
   tagline: 'Simplifying full-stack web development',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://codedbychavez.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,9 +37,13 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
+          blogTitle: 'codedbychavez',
+          blogDescription: 'Created to help simplify full-stack web development.',
+          blogSidebarTitle: 'Published Articles',
+          blogSidebarCount: 'ALL',
           routeBasePath: '/',
-          editUrl:
-            'https://github.com/codedbychavez/codedbcyhavez.com',
+          // editUrl:
+          //   'https://github.com/codedbychavez/codedbcyhavez.com',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -54,7 +58,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'codedbychavez logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -70,24 +74,16 @@ const config = {
             items: [
               {
                 label: 'Patreon',
-                to: '/',
+                to: 'https://www.patreon.com/codedbychavez?fan_landing=true',
               },
             ],
           },
           {
-            title: 'Follow Me',
+            title: 'Github',
             items: [
               {
-                label: 'Facebook',
-                href: 'https://www.facebook.com/codedbychavez/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/codedbychavez/',
-              },
-              {
-                label: 'Instagram',
-                href: 'https://www.instagram.com/codedbychavez/',
+                label: 'GitHub',
+                href: 'https://github.com/codedbychavez',
               },
             ],
           },
@@ -97,10 +93,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/codedbychavez',
               },
             ],
           },
