@@ -8,9 +8,10 @@ tags: [docker, react, docker compose]
 
 Learn how to get live reload working with Docker and React in just a few simple steps.
 
+<!-- truncate -->
+
 ![Cover Photo](/img/posts/live_reload_docker_and_react/cover.webp)
 
-<!-- truncate -->
 
 ## Prerequisites
 

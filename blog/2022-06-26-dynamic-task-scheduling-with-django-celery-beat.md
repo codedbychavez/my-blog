@@ -8,9 +8,10 @@ tags: [docker, react, celery, python]
 
 Let's walk through the steps of building a simple dynamic task scheduler using Django Celery Beat. You’ll learn how to implement a database-backed dynamic task scheduler in a Django app. We’ll even put together a simple API for managing periodic tasks from API endpoints. Unlike many other tutorials out there, This one is understandable and easy to learn.
 
+<!-- truncate -->
+
 ![Cover Photo](/img/posts/dynamic_task_scheduling_with_django_celery_beat/cover.webp)
 
-<!-- truncate -->
 
 ## Prerequisites
 

@@ -8,9 +8,10 @@ tags: [docusaurus, react, documentation]
 
 Start your next bog or documentation website. Docusaurus is a static-site generator that lets you build a one-page web application with fast client-side navigation, harnessing the full power of React to make your site interactive. The out-of-the-box documentation features allow you to create any kind of website, such as personal websites, products, blogs, marketing landing pages, etc.
 
+<!-- truncate -->
+
 ![Cover Photo](/img/posts/up_and_running_with_docusaurus/cover.png)
 
-<!-- truncate -->
 
 ## Prerequisites
 

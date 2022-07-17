@@ -35,8 +35,6 @@ const config = {
         docs: false,
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           blogTitle: 'codedbychavez',
           blogDescription: 'Created to help simplify full-stack web development.',
           blogSidebarTitle: 'Published Articles',

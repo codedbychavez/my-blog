@@ -8,9 +8,10 @@ tags: [firebase, react, authentication, routing]
 
 Learn how to implement firebase password authentication in a React application... Let's see how we can achieve this in a simple React application.
 
+<!-- truncate -->
+
 ![Cover Photo](/img/posts/firebase_authentication_in_react/cover.webp)
 
-<!-- truncate -->
 
 ## Prerequisites
 
