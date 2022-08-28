@@ -1,0 +1,15 @@
+/* Markdown */
+
+body, #layout {
+  height: 100vh;
+}
+
+/* Styling for markdown */
+
+h1 {
+  @apply text-3xl text-center font-bold text-gray-800 mt-12
+}
+
+p {
+  @apply mt-8 p-8
+}
