@@ -7,6 +7,7 @@ export default {
       path: String,
       date: String,
       author: String,
+      githubProfileImage: String,
     },
     components: { ArticleIcon }
 }
@@ -27,7 +28,7 @@ export default {
     <div class="flex justify-between items-center">
       <div class="flex items-center space-x-4">
         <img class="w-7 h-7 rounded-full"
-          src="https://avatars.githubusercontent.com/u/74829200?v=4" :alt="author" />
+          :src="githubProfileImage" :alt="author" />
         <span class="font-medium">
           {{ author }}
         </span>

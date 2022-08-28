@@ -1,15 +1,53 @@
-/* Markdown */
-
 body, #layout {
   height: 100vh;
 }
 
-/* Styling for markdown */
 
-h1 {
-  @apply text-3xl text-center font-bold text-gray-800 mt-12
+
+
+
+/* STYLING FOR MARKDOWN ONLY */
+
+/* headings */
+#markdown h1 {
+  @apply text-2xl font-bold text-gray-800 mb-4
 }
 
-p {
-  @apply mt-8 p-8
+#markdown h2 {
+  @apply text-xl font-semibold text-gray-800 my-4
+}
+
+#markdown h3 {
+  @apply text-lg font-semibold text-gray-800 my-4
+}
+
+/* Paragraphs */
+#markdown p {
+  @apply subpixel-antialiased leading-loose text-gray-800
+}
+
+/* Lists */
+#markdown ul {
+  @apply list-disc
+}
+
+#markdown ol {
+  @apply list-decimal
+}
+
+#markdown ul li, #markdown ol li {
+  @apply py-4
+}
+
+/* Pre / Code blocks */
+
+#markdown pre {
+  @apply bg-gray-800 p-4 rounded-lg shadow-sm
+}
+
+/* Images */
+
+#markdown img {
+  border: 1px dashed lightgray;
+  @apply shadow;
 }

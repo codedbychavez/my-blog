@@ -33,7 +33,7 @@ export default {
 </script>
 
 <template>
-  <nav class="navbar px-4 lg:px-6 py-2.5 shadow">
+  <nav class="navbar px-4 lg:px-6 py-2.5 shadow-lg">
     <div
       class="
         flex flex-wrap

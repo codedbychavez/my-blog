@@ -12,7 +12,7 @@
     <header>
       <Nav />
     </header>
-    <main class="p-4">
+    <main>
       <slot />
     </main>
     <Footer />
