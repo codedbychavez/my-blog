@@ -24,7 +24,7 @@ export default {
       </span>
       <span class="text-sm">{{ date }}</span>
     </div>
-    <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900"><a :href="path">{{ title }}</a></h2>
+    <h2 class="mb-2 text-2xl font-bold tracking-tight text-blue-600 hover:underline"><a :href="path">{{ title }}</a></h2>
     <p class="mb-5 font-light text-gray-500">{{ description }}</p>
     <div class="flex justify-between items-center">
       <div class="flex items-center space-x-4">
