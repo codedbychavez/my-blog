@@ -16,7 +16,8 @@ export default defineNuxtConfig({
       theme: 'github-dark',
       preload: [
         'python',
-        'javascript'
+        'javascript',
+        'docker'
       ]
     }
   }

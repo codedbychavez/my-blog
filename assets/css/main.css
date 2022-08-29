@@ -1,11 +1,11 @@
-body, #layout {
-  height: 100vh;
+body {
+  @apply h-screen
 }
 
 
 /* STYLING FOR LAYOUTS */
 #default-layout, #article-layout {
-  @apply flex flex-col
+  @apply flex flex-col h-screen
 }
 
 /* Default layout */
@@ -39,22 +39,28 @@ body, #layout {
   @apply text-2xl font-semibold text-blue-600 my-4
 }
 
+
+
 #markdown h3 {
   @apply text-xl font-semibold text-blue-500 my-4
 }
 
+#markdown h4 {
+  @apply text-lg font-semibold text-blue-500 my-4
+}
+
 /* Paragraphs */
 #markdown p {
-  @apply subpixel-antialiased text-lg text-gray-700 leading-loose;
+  @apply subpixel-antialiased text-lg text-gray-800 leading-loose;
 }
 
 /* Lists */
 #markdown ul {
-  @apply list-disc
+  @apply list-disc pl-4
 }
 
 #markdown ol {
-  @apply list-decimal
+  @apply list-decimal pl-4
 }
 
 #markdown ul li, #markdown ol li {
@@ -66,8 +72,22 @@ body, #layout {
   @apply bg-gray-800 p-4 rounded-lg shadow-sm;
 }
 
+#markdown code {
+  @apply font-mono font-semibold
+}
+
 /* Images */
 #markdown img {
   border: 1px dashed lightgray;
   @apply shadow;
+}
+
+/* Anchor links */
+
+#markdown a {
+  @apply underline
+}
+
+#markdown h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  /* @apply no-underline !important; */
 }
