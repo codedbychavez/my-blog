@@ -11,8 +11,10 @@ definePageMeta({
 
 <template>
   <div>
+
     <Head>
-      <Title>{{ data.title }}</Title>
+      <Title>{{  data.title  }}</Title>
+      <Meta name="description" :content="data.description" />
     </Head>
     <ContentRenderer id="markdown" :value="data" />
   </div>
