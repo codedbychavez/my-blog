@@ -1,6 +1,6 @@
 ---
 title: Intro to Python with longer title
-description: This is an intro to python
+description: This is an intro to python which I hope you enjoy until the end
 date: July 27 2022
 author: Chavez Harris
 githubProfileImage: https://avatars.githubusercontent.com/u/74829200?v=4

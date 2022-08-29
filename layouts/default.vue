@@ -8,12 +8,14 @@
   </script>
 
 <template>
-  <div id="layout" class="flex flex-col">
+  <div id="default-layout">
     <header>
       <Nav />
     </header>
-    <main class="p-4">
-      <slot />
+    <main>
+      <div>
+        <slot />
+      </div>
     </main>
     <Footer />
   </div>

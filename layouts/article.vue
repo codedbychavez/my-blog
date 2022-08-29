@@ -1,19 +1,20 @@
 <script>
   import Footer from '@/components/Footer.vue';
   import Nav from '@/components/Nav.vue';
+  import ArticleBanner from '~~/components/ArticleBanner.vue';
   
   export default {
-    components: { Nav, Footer }
+    components: { Nav, Footer, ArticleBanner }
   }
   </script>
 
 <template>
-  <div id="layout" class="flex flex-col">
-    <header>
-      <Nav />
-    </header>
+  <div id="article-layout">
     <main>
-      <slot />
+      <ArticleBanner />
+      <div id="markdown-content-wrapper">
+        <slot />
+      </div>
     </main>
     <Footer />
   </div>

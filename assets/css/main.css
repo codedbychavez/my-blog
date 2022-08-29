@@ -3,27 +3,49 @@ body, #layout {
 }
 
 
+/* STYLING FOR LAYOUTS */
+#default-layout, #article-layout {
+  @apply flex flex-col
+}
 
+/* Default layout */
 
+#default-layout main {
+  @apply flex
+}
+
+#default-layout main > div {
+  @apply px-4 lg:px-0 lg:w-3/4 mx-auto my-2 lg:my-8 py-8 lg:py-16
+}
+
+/* Article layout */
+
+#article-layout #markdown-content-wrapper {
+  @apply flex
+}
+
+#article-layout #markdown-content-wrapper > div {
+  @apply px-8 lg:px-0 lg:w-3/4 mx-auto my-2 lg:my-8 py-8 lg:py-16
+}
 
 /* STYLING FOR MARKDOWN ONLY */
 
 /* headings */
 #markdown h1 {
-  @apply text-2xl font-bold text-gray-800 mb-4
+  @apply text-3xl font-bold text-blue-700 mb-4
 }
 
 #markdown h2 {
-  @apply text-xl font-semibold text-gray-800 my-4
+  @apply text-2xl font-semibold text-blue-600 my-4
 }
 
 #markdown h3 {
-  @apply text-lg font-semibold text-gray-800 my-4
+  @apply text-xl font-semibold text-blue-500 my-4
 }
 
 /* Paragraphs */
 #markdown p {
-  @apply subpixel-antialiased leading-loose text-gray-800
+  @apply subpixel-antialiased text-lg text-gray-700 leading-loose;
 }
 
 /* Lists */
@@ -40,13 +62,11 @@ body, #layout {
 }
 
 /* Pre / Code blocks */
-
 #markdown pre {
-  @apply bg-gray-800 p-4 rounded-lg shadow-sm
+  @apply bg-gray-800 p-4 rounded-lg shadow-sm;
 }
 
 /* Images */
-
 #markdown img {
   border: 1px dashed lightgray;
   @apply shadow;
