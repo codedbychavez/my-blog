@@ -29,7 +29,7 @@ export default {
     <div class="flex justify-between items-center">
       <div class="flex items-center space-x-4">
         <img class="w-7 h-7 rounded-full"
-          :src="githubProfileImage" :alt="author" />
+          src="https://avatars.githubusercontent.com/u/74829200?v=4" :alt="author" />
         <span class="font-medium">
           {{ author }}
         </span>
