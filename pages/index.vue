@@ -4,7 +4,11 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'This is the official blog for codedbychavez.com. Explore articles and tutorials on web and front-end development that interest you.'
+      content: 'This is the official blog for codedbychavez.com. Explore articles and tutorials on web and front-end development that interest you.',
+    },
+    {
+      name: 'og:image',
+      content: '/images/og_image.png'
     }
   ],
 })
