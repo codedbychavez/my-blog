@@ -1,10 +1,10 @@
 <script setup>
 useHead({
-  title: 'Coded By Chavez | Blog',
+  title: 'Coded by Chavez | Blog',
   meta: [
     {
       name: 'og:title',
-      content: 'Coded By Chavez | Blog',
+      content: 'Coded by Chavez | Blog',
     },
     {
       name: 'og:description',
