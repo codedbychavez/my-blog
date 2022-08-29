@@ -19,7 +19,7 @@ import ArrowNarrowLeftIcon from "./icons/ArrowNarrowLeftIcon.vue";
 
 <template>
   <div class="banner py-8 flex flex-col text-white">
-    <h1 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+    <h1 class="text-center text-3xl md:text-4xl lg:text-5xl font-bold font-mono mb-4">
       {{ data.title }}
     </h1>
 
@@ -38,7 +38,7 @@ import ArrowNarrowLeftIcon from "./icons/ArrowNarrowLeftIcon.vue";
           <ArrowNarrowLeftIcon />
           <span class="ml-2">Back to Articles</span>
         </a>
-        <div class="border w-max px-2 py-1 lg:p-4 rounded-full flex shadow">
+        <div class="border-2 border-green-500 w-max px-2 py-1 lg:p-4 rounded-full flex shadow">
           <img class="w-7 h-7 rounded-full" :src="data.githubProfileImage" />
           <div class="font-mono ml-2">By: {{ data.author }}</div>
         </div>

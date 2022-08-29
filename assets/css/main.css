@@ -88,6 +88,7 @@ body {
   @apply underline
 }
 
-#markdown h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
-  /* @apply no-underline !important; */
+/* Block quotes */
+blockquote {
+  @apply border-green-400 border-x-8 px-2 my-8 font-mono border-y
 }

@@ -3,7 +3,7 @@ import CodeIcon from "./icons/CodeIcon.vue";
 </script>
 
 <template>
-  <nav class="navbar px-4 lg:px-6 py-2.5 shadow-lg">
+  <nav class="navbar px-4 lg:px-6 py-2.5 shadow border-b-2 border-green-500">
     <div
       class="
         flex flex-wrap

@@ -17,7 +17,7 @@ export default defineNuxtConfig({
       preload: [
         'python',
         'javascript',
-        'docker'
+        'docker',
       ]
     }
   }
