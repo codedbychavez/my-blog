@@ -64,7 +64,7 @@ body {
 }
 
 #markdown ul li, #markdown ol li {
-  @apply py-4
+  @apply py-2
 }
 
 /* Pre / Code blocks */
