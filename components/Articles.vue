@@ -1,6 +1,6 @@
 <script setup>
 import ArticleCard from './ArticleCard.vue';
-const { data } = useAsyncData('/', () => queryContent('/articles/').only(['_id', 'title', 'description', '_path', 'date', 'author', 'githubProfileImage']).find())
+const { data } = useAsyncData('/', () => queryContent('/articles/').only(['_id', 'title', 'description', '_path', 'date', 'author', 'githubProfileImage']).sort({date: -1}).find())
 </script>
 
 <template>
