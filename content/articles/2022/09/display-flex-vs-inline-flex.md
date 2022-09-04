@@ -11,6 +11,8 @@ In this post, we'll explore the difference between `display: flex` and `display:
 
 <!-- more -->
 
+![Cover photo](/images/articles/display-flex-vs-inline-flex/cover_photo.png)
+
 ## `display: flex`
 
 When applied to an element it turns the element into **block-level** flex container which would take up the entire with of the page or its parent element (in this case, the body element).
