@@ -3,7 +3,7 @@ title: My honest review of freeCodeCamp (Basic JavaScript Challenge)
 description: Read about my honest review of freeCodeCamp (Basic JavaScript Challenge)
 date: 2022 07
 author: Chavez Harris
-coverPhoto: https://codedbychavez.com/images/articles/display-flex-vs-inline-flex/cover_photo.png
+coverPhoto: https://codedbychavez.com/images/articles/my-honest-review-of-freecodecamp/cover_photo.png
 tags: [challenge, javaScript, learning, freeCodeCamp]
 ---
 
