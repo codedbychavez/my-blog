@@ -6,6 +6,9 @@ author: Chavez Harris
 githubProfileImage: https://avatars.githubusercontent.com/u/74829200?v=4
 ---
 
+<!-- ![ALT Text](/images/articles/LINK_TO_IMAGE.EXT) -->
+
+
 This is an example excerpt
 
 <!-- more -->

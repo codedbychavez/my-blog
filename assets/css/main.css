@@ -52,7 +52,7 @@ html, body {
 
 /* Paragraphs */
 #markdown p {
-  @apply subpixel-antialiased text-lg text-gray-800 leading-loose;
+  @apply subpixel-antialiased text-lg text-gray-800 leading-loose my-4; 
 }
 
 /* Lists */
