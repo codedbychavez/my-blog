@@ -39,7 +39,7 @@ import ArrowNarrowLeftIcon from "./icons/ArrowNarrowLeftIcon.vue";
           <span class="ml-2">Back to Articles</span>
         </a>
         <div class="border-2 border-green-500 w-max px-2 py-1 lg:p-4 rounded-full flex shadow">
-          <img class="w-7 h-7 rounded-full" :src="data.githubProfileImage" />
+          <img class="w-7 h-7 rounded-full" src="https://avatars.githubusercontent.com/u/74829200?v=4" />
           <div class="font-mono ml-2">By: {{ data.author }}</div>
         </div>
       </div>

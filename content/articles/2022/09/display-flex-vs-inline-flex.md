@@ -3,7 +3,6 @@ title: Display flex vs inline-flex
 description: "Difference between display: flex and display: inline-flex"
 date: 2022 09
 author: Chavez Harris
-githubProfileImage: https://avatars.githubusercontent.com/u/74829200?v=4
 coverPhoto: https://codedbychavez.com/images/articles/display-flex-vs-inline-flex/cover_photo.png
 tags: [css, flexbox, styling, flexboxModule]
 ---
