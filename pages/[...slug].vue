@@ -14,6 +14,7 @@ definePageMeta({
     <Head>
       <Title>{{  data.title + ' | Coded by Chavez'  }}</Title>
       <Meta name="description" :content="data.description" />
+      <Meta name="og:image" :content="data.coverPhoto" />
     </Head>
     <ContentRenderer id="markdown" :value="data" />
   </div>
