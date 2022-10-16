@@ -1,2 +1,2 @@
 # my-blog
-The official blog for codedbychavez.com
+The official blog for https://codedbychavez.com
