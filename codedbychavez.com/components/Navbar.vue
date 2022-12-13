@@ -5,9 +5,9 @@
     </div>
     <div class="navbar-items-wrapper">
       <div class="nav-menu-desktop">
-        <a class="nav-item">Blog</a>
-        <a class="nav-item">Courses</a>
-        <a class="nav-item">Books</a>
+        <a class="nav-item text-red-700">Blog</a>
+        <a class="nav-item text-green-700">Courses</a>
+        <a class="nav-item text-purple-700">Books</a>
       </div>
       <div class="nav-menu-mobile" :class="{ hide: !showMobileMenu }">
         <div class="logo-and-toggle-wrapper">
@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss">
 .navbar {
-  @apply flex justify-between h-16 items-center px-6 bg-amber-500 font-normal relative;
+  @apply flex justify-between h-16 items-center px-6 font-normal relative;
 
   .hide {
     @apply hidden;
@@ -64,7 +64,7 @@ export default {
   }
 
   .nav-menu-mobile {
-    @apply absolute bg-gray-600 left-0 right-0 top-0 h-max p-6;
+    @apply absolute bg-gray-600 left-0 right-0 top-0 h-max p-6 z-10;
 
     .logo-and-toggle-wrapper {
       @apply mb-6 flex justify-between;
@@ -80,7 +80,8 @@ export default {
   }
 
   .nav-item {
-    @apply text-gray-50 cursor-pointer;
+    @apply cursor-pointer text-lg uppercase font-black underline underline-offset-8 decoration-1;
+    text-decoration-style: wavy;
   }
 
   @include mq($from: tablet) {
