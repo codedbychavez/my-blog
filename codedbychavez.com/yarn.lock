@@ -511,7 +511,7 @@
   resolved "https://registry.yarnpkg.com/@nuxt/devalue/-/devalue-2.0.0.tgz#c7bd7e9a516514e612d5d2e511ffc399e0eac322"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/kit@3.0.0", "@nuxt/kit@^3.0.0-rc.12", "@nuxt/kit@^3.0.0-rc.14", "@nuxt/kit@^3.0.0-rc.9":
+"@nuxt/kit@3.0.0", "@nuxt/kit@^3.0.0-rc.12", "@nuxt/kit@^3.0.0-rc.14":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0.tgz#ae49b4e27b15285556cb88f35a56309c5ca0dd79"
   integrity sha512-7ZsOLt5s9a0ZleAIzmoD70JwkZf5ti6bDdxl6f8ew7Huxz+ni/oRfTPTX9TrORXsgW5CvDt6Q9M7IJNPkAN/Iw==
@@ -749,11 +749,6 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
   integrity sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==
 
-"@types/lodash@^4.14.161":
-  version "4.14.191"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.191.tgz#09511e7f7cba275acd8b419ddac8da9a6a79e2fa"
-  integrity sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==
-
 "@types/node@*":
   version "18.11.14"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.14.tgz#a8571b25f3a31e9ded14e3ab9488509adef831d8"
@@ -944,16 +939,6 @@
   version "3.2.45"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.45.tgz#a3fffa7489eafff38d984e23d0236e230c818bc2"
   integrity sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==
-
-"@vuestic/nuxt@^1.0.9":
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/@vuestic/nuxt/-/nuxt-1.0.9.tgz#2b0a98a1919ed3a99575348ab3e541bd2e424a05"
-  integrity sha512-XuQ8Yk7lvMcjox+rZAsIAQ4Io7akl0TfzyQXmehtIgPg4SeF27Kz6VSFOQPvW6K8CIcq8IlrBOSw5HI421dqqw==
-  dependencies:
-    "@nuxt/kit" "^3.0.0-rc.9"
-    nuxt "^3.0.0-rc.9"
-    pathe "^0.3.5"
-    vuestic-ui "^1.4.10"
 
 "@vueuse/head@^1.0.15":
   version "1.0.22"
@@ -1398,11 +1383,6 @@ clear-module@^4.1.2:
     parent-module "^2.0.0"
     resolve-from "^5.0.0"
 
-cleave.js@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/cleave.js/-/cleave.js-1.6.0.tgz#0e4e011943bdd70c67c9dcf4ff800ce710529171"
-  integrity sha512-ivqesy3j5hQVG3gywPfwKPbi/7ZSftY/UNp5uphnqjr25yI2CP8FS2ODQPzuLXXnNLi29e2+PgPkkiKUXLs/Nw==
-
 cli-cursor@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-4.0.0.tgz#3cecfe3734bf4fe02a8361cbdc0f6fe28c6a57ea"
@@ -1491,11 +1471,6 @@ colorette@^2.0.19:
   version "2.0.19"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.19.tgz#cdf044f47ad41a0f4b56b3a0d5b4e6e1a2d5a798"
   integrity sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==
-
-colortranslator@^1.9.2:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/colortranslator/-/colortranslator-1.9.3.tgz#44bf8b678b576145f0d099fda8bd6ad29b20cf8a"
-  integrity sha512-51O07JAa8J0uIZT08FOGirqRBK9DVG0luuTNjYk9FdawE4tFc3yp7jQhRkZQsUDRwCnKa4CwMRuJIiaSeXsGvg==
 
 commander@^2.20.0:
   version "2.20.3"
@@ -3493,7 +3468,7 @@ nuxi@3.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt@3.0.0, nuxt@^3.0.0-rc.9:
+nuxt@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.0.0.tgz#0909e6566d79805f3a4ed6229573817cbde12e89"
   integrity sha512-RNlD78uv04ZiXWmlx9f1tnJfrqsYAWHU+4gbgOTQpIBmQzHWPWiox+fm/1m93iKfEd5sJi9TJUoXX5yBObVZYw==
@@ -3720,11 +3695,6 @@ pathe@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/pathe/-/pathe-0.2.0.tgz#30fd7bbe0a0d91f0e60bae621f5d19e9e225c339"
   integrity sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==
-
-pathe@^0.3.5:
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/pathe/-/pathe-0.3.9.tgz#4baff768f37f03e3d9341502865fb93116f65191"
-  integrity sha512-6Y6s0vT112P3jD8dGfuS6r+lpa0qqNrLyHPOwvXMnyNTQaYiwgau2DP3aNDsR13xqtGj7rrPo+jFUATpU6/s+g==
 
 pathe@^1.0.0:
   version "1.0.0"
@@ -5074,16 +5044,6 @@ vue@^3.2.45:
     "@vue/runtime-dom" "3.2.45"
     "@vue/server-renderer" "3.2.45"
     "@vue/shared" "3.2.45"
-
-vuestic-ui@^1.4.10:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/vuestic-ui/-/vuestic-ui-1.5.3.tgz#3190d7c92c8034f189e182c257d8f02ac4f56f57"
-  integrity sha512-p/OwbqMxQ6I67DjV5Ahl6u5/8/uHgAxWVFhc6xxo6+o9EEogXX5GfMtfDjK002X+cuXQUJKeDC5WGXu+Ugkkag==
-  dependencies:
-    "@types/lodash" "^4.14.161"
-    cleave.js "^1.6.0"
-    colortranslator "^1.9.2"
-    lodash "^4.17.21"
 
 wcwidth@^1.0.1:
   version "1.0.1"

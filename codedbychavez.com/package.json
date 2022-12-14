@@ -12,7 +12,6 @@
     "nuxt": "3.0.0"
   },
   "dependencies": {
-    "@vuestic/nuxt": "^1.0.9",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
     "sass-mq": "^6.0.0"

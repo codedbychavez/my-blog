@@ -5,9 +5,9 @@
     </div>
     <div class="navbar-items-wrapper">
       <div class="nav-menu-desktop">
-        <a class="nav-item text-red-700">Blog</a>
-        <a class="nav-item text-green-700">Courses</a>
-        <a class="nav-item text-purple-700">Books</a>
+        <a class="nav-item">Blog</a>
+        <a class="nav-item">Courses</a>
+        <a class="nav-item">Books</a>
       </div>
       <div class="nav-menu-mobile" :class="{ hide: !showMobileMenu }">
         <div class="logo-and-toggle-wrapper">
@@ -53,7 +53,7 @@ export default {
 
 <style lang="scss">
 .navbar {
-  @apply flex justify-between h-16 items-center px-6 font-normal relative bg-gray-200;
+  @apply flex justify-between h-16 items-center px-6 font-normal relative bg-gray-100;
 
   .hide {
     @apply hidden;
@@ -69,7 +69,7 @@ export default {
   }
 
   .nav-menu-mobile {
-    @apply absolute bg-gray-600 left-0 right-0 top-0 h-max p-6 z-10;
+    @apply absolute bg-gray-100 left-0 right-0 top-0 h-max p-6 z-10 shadow;
 
     .logo-and-toggle-wrapper {
       @apply mb-6 flex justify-between;
