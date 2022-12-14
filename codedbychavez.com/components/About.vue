@@ -27,7 +27,7 @@
     max-width: 70char;
 
     .paragraph {
-      @apply text-xl
+      @apply text-xl text-slate-500;
     }
   }
 }
