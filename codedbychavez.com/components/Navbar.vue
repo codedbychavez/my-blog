@@ -41,6 +41,11 @@ export default {
   data() {
     return {
       showMobileMenu: false,
+      navLinks: [
+        {
+
+        }
+      ]
     };
   },
 };
@@ -48,7 +53,7 @@ export default {
 
 <style lang="scss">
 .navbar {
-  @apply flex justify-between h-16 items-center px-6 font-normal relative;
+  @apply flex justify-between h-16 items-center px-6 font-normal relative bg-gray-200;
 
   .hide {
     @apply hidden;
