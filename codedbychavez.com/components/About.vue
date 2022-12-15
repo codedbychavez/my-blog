@@ -14,20 +14,21 @@
 <style lang="scss">
 .about {
 
-  @apply px-8 py-12 text-gray-600;
+  @apply px-8 py-12;
   
   
   .title {
-    @apply text-5xl uppercase;
+    @apply text-5xl uppercase text-gray-700;
     font-family: 'Archivo Black', sans-serif;
 
   }
 
   .about-text-container {
     max-width: 70char;
+    @apply border-l-8 border-[#3e4b5d];
 
     .paragraph {
-      @apply text-xl text-slate-500;
+      @apply text-xl text-gray-600 pl-8;
     }
   }
 }

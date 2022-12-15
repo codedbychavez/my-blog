@@ -33,21 +33,20 @@
 <style lang="scss">
 .banner {
   @apply h-80 flex justify-center items-center;
-  background: linear-gradient(-45deg, transparent 15px, #3e4b5d 0);
+  // background: linear-gradient(-45deg, transparent 15px, #3e4b5d 0);
 
 
   .box {
-    @apply w-96 h-40 border-8 border-gray-200 border-solid flex;
-    box-shadow: 5px 0 5px -5px black,
-    -5px 0 5px -5px black;
+    @apply w-96 h-40 border-8 border-gray-700 border-solid flex;
 
     .title {
-      @apply m-auto text-amber-400 uppercase font-black text-4xl;
+      @apply m-auto text-gray-400 uppercase font-black text-4xl;
+      transform: rotate(-5deg);
     }
 
   }
   .subtitle {
-    @apply text-lg flex justify-between text-slate-100;
+    @apply text-lg flex justify-between text-gray-300;
   }
 }
 </style>
