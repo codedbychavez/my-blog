@@ -6142,15 +6142,15 @@ module.exports = {
   "content": {
     "relative": false,
     "files": [
-      "/home/codedbychavez/repos/codedbychavez.com/components/**/*.{vue,js,ts}",
-      "/home/codedbychavez/repos/codedbychavez.com/layouts/**/*.vue",
-      "/home/codedbychavez/repos/codedbychavez.com/pages/**/*.vue",
-      "/home/codedbychavez/repos/codedbychavez.com/composables/**/*.{js,ts}",
-      "/home/codedbychavez/repos/codedbychavez.com/plugins/**/*.{js,ts}",
-      "/home/codedbychavez/repos/codedbychavez.com/App.{js,ts,vue}",
-      "/home/codedbychavez/repos/codedbychavez.com/app.{js,ts,vue}",
-      "/home/codedbychavez/repos/codedbychavez.com/Error.{js,ts,vue}",
-      "/home/codedbychavez/repos/codedbychavez.com/error.{js,ts,vue}"
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/components/**/*.{vue,js,ts}",
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/layouts/**/*.vue",
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/pages/**/*.vue",
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/composables/**/*.{js,ts}",
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/plugins/**/*.{js,ts}",
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/App.{js,ts,vue}",
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/app.{js,ts,vue}",
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/Error.{js,ts,vue}",
+      "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/error.{js,ts,vue}"
     ],
     "extract": {},
     "transform": {}

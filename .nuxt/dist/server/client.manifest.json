@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "/home/codedbychavez/repos/codedbychavez.com/node_modules/nuxt/dist/app/entry.mjs": {
+  "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/node_modules/nuxt/dist/app/entry.mjs": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "/home/codedbychavez/repos/codedbychavez.com/node_modules/nuxt/dist/app/entry.mjs"
+    "file": "/Users/chavez/Desktop/Creative Work/repos/codedbychavez.com/node_modules/nuxt/dist/app/entry.mjs"
   }
 }
