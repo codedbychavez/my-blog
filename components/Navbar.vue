@@ -64,7 +64,7 @@ export default {
   }
 
   .menu-toggle {
-    @apply stroke-gray-50 cursor-pointer;
+    @apply cursor-pointer;
     color: red;
   }
 
