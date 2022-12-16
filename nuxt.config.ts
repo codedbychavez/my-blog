@@ -1,25 +1,8 @@
-import { defineNuxtConfig } from 'nuxt'
-
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  buildModules: [
-    '@nuxtjs/tailwindcss',
-  ],
-  modules: [
-    '@nuxt/content'
-  ],
+  modules: ['@nuxtjs/tailwindcss'],
   css: [
-    '@/assets/css/main.css',
+    '~/assets/css/main.scss'
   ],
-  content: {
-    highlight: {
-      theme: 'github-dark',
-      preload: [
-        'python',
-        'javascript',
-        'docker',
-        'css',
-      ]
-    }
-  }
+  vite: { css: { preprocessorOptions: { scss: { additionalData: '@use "~/assets/css/media-queries-breakpoints.scss" as *;' } } } }
 })
