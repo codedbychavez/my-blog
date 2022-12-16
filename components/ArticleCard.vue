@@ -1,6 +1,6 @@
 <script>
-import ArticleIcon from './icons/ArticleIcon.vue';
-import ArrowNarrowRightIcon from './icons/ArrowNarrowRightIcon.vue';
+// import ArticleIcon from './icons/ArticleIcon.vue';
+// import ArrowNarrowRightIcon from './icons/ArrowNarrowRightIcon.vue';
 export default {
     props: {
       title: String,
@@ -10,7 +10,7 @@ export default {
       author: String,
       githubProfileImage: String,
     },
-    components: { ArticleIcon, ArrowNarrowRightIcon }
+    // components: { ArticleIcon, ArrowNarrowRightIcon }
 }
 </script>
 
