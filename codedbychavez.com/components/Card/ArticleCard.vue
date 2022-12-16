@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <h3 class="card-title">Landing Pages</h3>
+    <h3 class="card-title">Article card</h3>
   </div>
 </template>
 
