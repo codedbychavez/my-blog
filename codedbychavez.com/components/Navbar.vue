@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <div class="logo-wrapper">
-      <a class="logo">codedbychavez</a>
+       <img class="logo" src="/images/logo.png" />
     </div>
     <div class="navbar-items-wrapper">
       <div class="nav-menu-desktop">
@@ -11,7 +11,7 @@
       </div>
       <div class="nav-menu-mobile" :class="{ hide: !showMobileMenu }">
         <div class="logo-and-toggle-wrapper">
-          <a class="logo">codedbychavez</a>
+          <img class="logo" src="/images/logo.png" />
           <button @click="showMobileMenu = false" class="menu-toggle">
             <CloseIcon />
           </button>
@@ -53,10 +53,14 @@ export default {
 
 <style lang="scss">
 .navbar {
-  @apply flex justify-between h-16 items-center px-6 font-normal relative bg-gray-100;
+  @apply flex justify-between items-center p-6 font-normal bg-gray-100 absolute top-0 right-0 left-0;
 
   .hide {
     @apply hidden;
+  }
+
+  .logo {
+    width: 65px;
   }
 
   .menu-toggle {

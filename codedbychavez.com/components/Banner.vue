@@ -32,8 +32,7 @@
 
 <style lang="scss">
 .banner {
-  @apply h-80 flex justify-center items-center;
-  // background: linear-gradient(-45deg, transparent 15px, #3e4b5d 0);
+  @apply h-screen flex justify-center items-center;
 
 
   .box {
