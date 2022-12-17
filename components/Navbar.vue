@@ -1,26 +1,19 @@
 <template>
   <div class="navbar">
-    <div class="logo-text">
-       CH.
-    </div>
+    <div class="logo-text">CH.</div>
     <div class="navbar-items-wrapper">
       <div class="nav-menu-desktop">
-        <a class="nav-item">Blog</a>
-        <a class="nav-item">Courses</a>
-        <a class="nav-item">Books</a>
+        <a v-for="navLink in navLinks" :href="navLink.link" class="nav-item">{{ navLink.text }}</a>
       </div>
       <div class="nav-menu-mobile" :class="{ hide: !showMobileMenu }">
         <div class="logo-and-toggle-wrapper">
-          <div class="logo-text">
-            CH.
-          </div>
+          <div class="logo-text">CH.</div>
           <button @click="showMobileMenu = false" class="menu-toggle">
             <CloseIcon />
           </button>
         </div>
-        <a class="nav-item">Blog</a>
-        <a class="nav-item">Courses</a>
-        <a class="nav-item">Books</a>
+        <a v-for="navLink in navLinks" :href="navLink.link" class="nav-item">{{ navLink.text }}</a>
+        <button class="nav-button">Hire me</button>
       </div>
       <div class="mobile-nav-toggle-wrapper">
         <button @click="showMobileMenu = true" class="toggle-button">
@@ -28,9 +21,7 @@
         </button>
       </div>
     </div>
-    <button class="nav-button">
-          Hire me
-        </button>
+    <button class="nav-button">Hire me</button>
   </div>
 </template>
 
@@ -48,9 +39,18 @@ export default {
       showMobileMenu: false,
       navLinks: [
         {
-
-        }
-      ]
+          text: "Blog",
+          link: "#someUrl",
+        },
+        {
+          text: "Courses",
+          link: "#someUrl",
+        },
+        {
+          text: "Books",
+          link: "#someUrl",
+        },
+      ],
     };
   },
 };
@@ -66,17 +66,12 @@ export default {
 
   .logo-text {
     @apply text-5xl font-black text-[#ff8c15];
-    font-family: 'Luckiest Guy', cursive;
-  }
-
-  .menu-toggle {
-    @apply cursor-pointer;
-    color: red;
+    font-family: "Luckiest Guy", cursive;
   }
 
   .nav-button {
-      @apply hidden;
-    }
+    @apply hidden bg-gray-800 px-4 py-2 text-gray-50;
+  }
 
   .nav-menu-desktop {
     display: none;
@@ -89,14 +84,16 @@ export default {
       @apply mb-6 flex justify-between;
     }
 
+    .nav-button {
+      @apply block mt-6;
+    }
+
     .nav-item {
       @apply block;
     }
 
-  
-
     .nav-item + .nav-item {
-      @apply mt-6;
+      @apply mt-4;
     }
   }
 
@@ -106,15 +103,11 @@ export default {
 
   @include mq($from: tablet) {
     .nav-menu-desktop {
-      display: flex;
-      gap: 2em;
-      justify-content: space-between;
-
-
+      @apply flex gap-8 justify-between items-center;
     }
 
     .nav-button {
-      @apply block bg-gray-800 px-4 py-2 text-gray-50;
+      @apply block;
     }
 
     .nav-menu-mobile {
