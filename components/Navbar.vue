@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
-    <div class="logo-wrapper">
-       <img class="logo" src="/images/logo.png" />
+    <div class="logo-text">
+       CH.
     </div>
     <div class="navbar-items-wrapper">
       <div class="nav-menu-desktop">
@@ -11,7 +11,9 @@
       </div>
       <div class="nav-menu-mobile" :class="{ hide: !showMobileMenu }">
         <div class="logo-and-toggle-wrapper">
-          <img class="logo" src="/images/logo.png" />
+          <div class="logo-text">
+            CH.
+          </div>
           <button @click="showMobileMenu = false" class="menu-toggle">
             <CloseIcon />
           </button>
@@ -26,6 +28,9 @@
         </button>
       </div>
     </div>
+    <button class="nav-button">
+          Hire me
+        </button>
   </div>
 </template>
 
@@ -59,14 +64,19 @@ export default {
     @apply hidden;
   }
 
-  .logo {
-    width: 65px;
+  .logo-text {
+    @apply text-5xl font-black text-[#ff8c15];
+    font-family: 'Luckiest Guy', cursive;
   }
 
   .menu-toggle {
     @apply cursor-pointer;
     color: red;
   }
+
+  .nav-button {
+      @apply hidden;
+    }
 
   .nav-menu-desktop {
     display: none;
@@ -83,20 +93,28 @@ export default {
       @apply block;
     }
 
+  
+
     .nav-item + .nav-item {
       @apply mt-6;
     }
   }
 
   .nav-item {
-    @apply cursor-pointer text-lg uppercase font-black underline underline-offset-8 decoration-1;
-    text-decoration-style: wavy;
+    @apply cursor-pointer text-lg uppercase font-black underline;
   }
 
   @include mq($from: tablet) {
     .nav-menu-desktop {
       display: flex;
       gap: 2em;
+      justify-content: space-between;
+
+
+    }
+
+    .nav-button {
+      @apply block bg-gray-800 px-4 py-2 text-gray-50;
     }
 
     .nav-menu-mobile {
