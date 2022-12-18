@@ -28,7 +28,7 @@ export default {
       workItems: [
         {
           number: "01.",
-          title: "Landing pages",
+          title: "Landing pages.",
           text: "Launch your new product, service or business idea with an elegant landing page.",
           link: {
             text: "Lets go!",
@@ -37,7 +37,7 @@ export default {
         },
         {
           number: "02.",
-          title: "Vue.js Development",
+          title: "Vue.js development.",
           text: "If you're looking for someone to collaborate with on a Vue.js project count me in.",
           link: {
             text: "Lets go!",
