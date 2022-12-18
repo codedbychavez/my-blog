@@ -10,7 +10,7 @@
 
 <style lang="scss">
 .banner {
-  @apply flex h-96 border border-b-8;
+  @apply flex h-40 border border-b-8;
   border-bottom-color: rgba(255, 140, 21, 0.5);
 
   .title-wrapper {
@@ -18,7 +18,15 @@
   }
 
   .title {
-    @apply uppercase font-black text-6xl text-[#3A3A3A];
+    @apply uppercase font-black text-3xl text-[#3A3A3A];
+  }
+
+  @include mq($from: tablet) {
+    @apply h-96;
+
+    .title {
+      @apply text-6xl;
+    }
   }
 }
 </style>
