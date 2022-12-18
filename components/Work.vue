@@ -58,7 +58,7 @@ export default {
   }
 
   .work-card-wrapper + .work-card-wrapper {
-    @apply mt-8
+    @apply mt-8;
   }
 
   @include mq($from: tablet) {
