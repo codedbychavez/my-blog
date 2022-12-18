@@ -2,13 +2,13 @@
   <section class="section project">
     <h2 class="section-title">projects.</h2>
     <p class="paragraph">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.
+      Here are some projects I've been actively pursuing lately. You can visit each one on GitHub by clicking the link.
     </p>
     <div class="project-cards">
       <div class="project-card-wrapper" v-for="project, index in projects">
         <ProjectCard
           :number="`0${index+1}.`"
-          :title="project.name+'ttetetetetetettwtddgagdjagjdahj'"
+          :title="project.name"
           :text="project.description"
           :link="{text: 'Visit on GitHub', href: project.html_url}"
         />

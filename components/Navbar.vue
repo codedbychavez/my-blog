@@ -3,7 +3,9 @@
     <div class="logo-text">CH.</div>
     <div class="navbar-items-wrapper">
       <div class="nav-menu-desktop">
-        <a v-for="navLink in navLinks" :href="navLink.link" class="nav-item">{{ navLink.text }}</a>
+        <a v-for="navLink in navLinks" :href="navLink.link" class="nav-item">{{
+          navLink.text
+        }}</a>
       </div>
       <div class="nav-menu-mobile" :class="{ hide: !showMobileMenu }">
         <div class="logo-and-toggle-wrapper">
@@ -12,7 +14,9 @@
             <CloseIcon />
           </button>
         </div>
-        <a v-for="navLink in navLinks" :href="navLink.link" class="nav-item">{{ navLink.text }}</a>
+        <a v-for="navLink in navLinks" :href="navLink.link" class="nav-item">{{
+          navLink.text
+        }}</a>
         <button class="button nav-button">Hire me</button>
       </div>
       <div class="mobile-nav-toggle-wrapper">

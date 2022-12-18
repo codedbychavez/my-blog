@@ -2,7 +2,7 @@
   <section class="section work">
     <h2 class="section-title">work.</h2>
     <p class="paragraph">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.
+      Here are two things I am eager to help you with. I usually stick to building landing pages and Vue.js development... I consider myself pretty good at these. 🤓
     </p>
     <div class="work-cards">
       <div class="work-card-wrapper" v-for="workItem in workItems">
@@ -29,7 +29,7 @@ export default {
         {
           number: "01.",
           title: "Landing pages",
-          text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.",
+          text: "Launch your new product, service or business idea with an elegant landing page.",
           link: {
             text: "Lets go!",
             href: "#someUrl"
@@ -38,7 +38,7 @@ export default {
         {
           number: "02.",
           title: "Vue.js Development",
-          text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.",
+          text: "If you're looking for someone to collaborate with on a Vue.js project count me in.",
           link: {
             text: "Lets go!",
             href: "#someUrl"
