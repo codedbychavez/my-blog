@@ -58,7 +58,7 @@ export default {
 
 <style lang="scss">
 .navbar {
-  @apply flex justify-between items-center p-6 font-normal bg-gray-100 absolute top-0 right-0 left-0;
+  @apply flex justify-between items-center p-6 font-normal bg-gray-50 border border-b-8 border-[#6B7280];
 
   .hide {
     @apply hidden;
