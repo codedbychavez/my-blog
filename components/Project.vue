@@ -1,71 +1,45 @@
 <template>
-  <section class="section work">
-    <h2 class="section-title">work.</h2>
+  <section class="section project">
+    <h2 class="section-title">projects.</h2>
     <p class="paragraph">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.
     </p>
-    <div class="work-cards">
-      <div class="work-card-wrapper" v-for="workItem in workItems">
-        <WorkCard
-          :number="workItem.number"
-          :title="workItem.title"
-          :text="workItem.text"
-          :link="workItem.link"
+    <div class="project-cards">
+      <div class="project-card-wrapper" v-for="project, index in projects">
+        <ProjectCard
+          :number="`0${index+1}.`"
+          :title="project.name+'ttetetetetetettwtddgagdjagjdahj'"
+          :text="project.description"
+          :link="{text: 'Visit on GitHub', href: project.html_url}"
         />
       </div>
     </div>
   </section>
 </template>
 
-<script>
-import WorkCard from './Card/WorkCard.vue';
-export default {
-  components: {
-    WorkCard,
-  },
-  data() {
-    return {
-      projects: [
-        {
-          number: "01.",
-          title: "Landing pages",
-          text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.",
-          link: {
-            text: "Lets go!",
-            href: "/hire"
-          }
-        },
-        {
-          number: "02.",
-          title: "Vue.js Development",
-          text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.",
-          link: {
-            text: "Lets go!",
-            href: "/hire"
-          }
-        }
-      ]
-    }
-  }
-}
+<script setup>
+import ProjectCard from './Card/ProjectCard.vue';
+import { ref } from 'vue';
+
+let projects = ref([]);
+
+const { data } = await useFetch('https://api.github.com/users/codedbychavez/repos?per_page=6&direction=desc&sort=updated');
+
+projects = data.value;
+
 </script>
 
 <style lang="scss">
-.work {
+.project {
   
-  .work-cards {
+  .project-cards {
     @apply mt-6 flex flex-wrap gap-6;
   }
 
-  .work-card-wrapper + .work-card-wrapper {
-    @apply mt-8
-  }
 
   @include mq($from: tablet) {
 
-    .work-card-wrapper + .work-card-wrapper {
-      @apply ml-32 mt-16;
-    }
+
   }
 
 }

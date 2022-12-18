@@ -32,7 +32,7 @@ export default {
           text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.",
           link: {
             text: "Lets go!",
-            href: "/hire"
+            href: "#someUrl"
           }
         },
         {
@@ -41,7 +41,7 @@ export default {
           text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta maxime quos excepturi.",
           link: {
             text: "Lets go!",
-            href: "/hire"
+            href: "#someUrl"
           }
         }
       ]

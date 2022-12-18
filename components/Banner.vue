@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <div class="title-wrapper">
-      <h1 class="title">HI I'M CHAVEZ</h1>
+      <h1 class="title">HI &nbsp; I'M &nbsp; CHAVEZ</h1>
     </div>
   </div>
 </template>
