@@ -13,7 +13,7 @@
           </button>
         </div>
         <a v-for="navLink in navLinks" :href="navLink.link" class="nav-item">{{ navLink.text }}</a>
-        <button class="nav-button">Hire me</button>
+        <button class="button nav-button">Hire me</button>
       </div>
       <div class="mobile-nav-toggle-wrapper">
         <button @click="showMobileMenu = true" class="toggle-button">
@@ -21,7 +21,7 @@
         </button>
       </div>
     </div>
-    <button class="nav-button">Hire me</button>
+    <button class="button nav-button">Hire me</button>
   </div>
 </template>
 
@@ -70,7 +70,7 @@ export default {
   }
 
   .nav-button {
-    @apply hidden bg-gray-800 px-4 py-2 text-gray-50;
+    @apply hidden;
   }
 
   .nav-menu-desktop {

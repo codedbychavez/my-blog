@@ -6,8 +6,33 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.paragraph {
-  max-width: 75ch;
-  @apply mt-6;
+.section {
+  @apply py-8 px-6;
 
+  .section-title {
+    @apply font-black text-3xl;
+    color: rgba(255, 140, 21, 0.5);
+  }
+
+  @include mq($from: tablet) { 
+    @apply py-16 px-16;
+
+    .section-title {
+      @apply text-6xl;
+    }
+  }
+}
+
+.paragraph {
+  @apply mt-6;
+  max-width: 75ch;
+  color: #6B7280;
+  @include mq($from: tablet) {
+    @apply mt-8 font-normal text-lg;
+  }
+
+}
+
+.button {
+  @apply bg-gray-800 px-4 py-2 text-gray-50;
 }
