@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <div class="logo-text">CH.</div>
+    <div class="logo-text">CH</div>
     <div class="navbar-items-wrapper">
       <div class="nav-menu-desktop">
         <a v-for="navLink in navLinks" :href="navLink.link" class="nav-item">{{

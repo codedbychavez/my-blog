@@ -1,7 +1,7 @@
 <template>
   <div class="banner">
     <div class="title-wrapper">
-      <h1 class="title">HI &nbsp; I'M &nbsp; CHAVEZ</h1>
+      <h1 class="title">CHAVEZ &nbsp;R.&nbsp; HARRIS</h1>
     </div>
   </div>
 </template>
@@ -19,6 +19,7 @@
 
   .title {
     @apply uppercase font-black text-4xl text-[#3A3A3A];
+    font-family: 'DM Serif Display', serif;
   }
 
   @include mq($from: tablet) {
