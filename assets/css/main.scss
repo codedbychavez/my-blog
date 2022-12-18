@@ -1,9 +1,8 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap");
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .section {
@@ -14,7 +13,7 @@ body {
     color: rgba(255, 140, 21, 0.5);
   }
 
-  @include mq($from: tablet) { 
+  @include mq($from: tablet) {
     @apply py-16 px-16;
 
     .section-title {
@@ -26,11 +25,10 @@ body {
 .paragraph {
   @apply mt-6;
   max-width: 75ch;
-  color: #6B7280;
+  color: #6b7280;
   @include mq($from: tablet) {
     @apply mt-8 font-normal text-lg;
   }
-
 }
 
 .button {
