@@ -19,7 +19,7 @@ useSeoMeta({
   ogTitle: "My Amazing Site",
   description: "This is my amazing site, let me tell you about it",
   ogDescription: "This is my amazing site, let me tell you about it.",
-  ogImage: "https://codedbychavez.com/og-image.png"
+  ogImage: "https://codedbychavez.netlify.app/og-image.png"
 })
 </script>
 
