@@ -1,11 +1,13 @@
 <template>
-
-  <NuxtWelcome />  
+  <div>
+    <!-- Markup shared across all pages, ex: NavBar -->
+    <NuxtPage />
+  </div>
 </template>
 
 <script setup lang="ts">
 useHead({
-  title: 'My App',
+  title: 'codedbychavez',
   meta: [
     { name: 'description', content: 'My amazing site.' }
   ],
