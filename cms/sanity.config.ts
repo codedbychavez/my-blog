@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'codedbychavez',
 
   projectId: 'jm3k8h78',
-  dataset: 'production',
+  dataset: 'staging',
 
   plugins: [structureTool(), visionTool()],
 
